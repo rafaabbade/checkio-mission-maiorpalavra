@@ -8,7 +8,7 @@ print(maior_palavra(['paz', 'amor', 'saúde', 'sucesso']))
 
 # As funções assert são utilizadas para verificar se o resultado da função chamada é o esperado
 assert maior_palavra(['amor', 'vida', 'paz']) == 'vida'
-assert maior_palavra(['azul', 'amarelo', 'vermelho', 'verde']) == 'amarelo' 
+assert maior_palavra(['azul', 'amarelo', 'vermelho', 'verde']) == 'vermelho' 
 assert maior_palavra(['gato', 'cachorro', 'passarinho']) == 'passarinho'
     
 print("Seu código passou pelos testes, clique em Check para avançar!")
