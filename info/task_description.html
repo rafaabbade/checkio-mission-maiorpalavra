@@ -1,16 +1,15 @@
 <!-- Describe task in general -->
 
 <p>
-    Crie uma função que receba dois números inteiros como parâmetros e retorne a soma desses números.
-</p>
+    Crie uma função maior_palavra que receba uma lista de palavras como argumento e retorne a maior palavra dessa lista.
 
 <!-- Explain input and output values -->
 <p>
-    <strong>Entrada: </strong> Dois números inteiros a e b.
+    <strong>Entrada: </strong> Uma lista de palavras (strings).
 </p>
 
 <p>
-    <strong>Saída: </strong> Um número inteiro, que é a soma de a e b. 
+    <strong>Saída: </strong> A maior palavra dessa lista.
 </p>
 
 
@@ -25,9 +24,10 @@
 countConsecutiveSummers(99) == 6
 </pre>
 {% else %}
-<pre class="brush: python">soma(2,3) == 5
-soma(-1,5) == 4
-soma(0,0) == 0
+<pre class="brush: python">
+maior_palavra(['amor', 'vida', 'paz']) == 'vida'
+maior_palavra(['azul', 'amarelo', 'vermelho', 'verde']) == 'vermelho'
+maior_palavra(['gato', 'cachorro', 'passarinho']) == 'passarinho'
 </pre>
 {% endif %}
 </div>
